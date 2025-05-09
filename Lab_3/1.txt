@@ -1,0 +1,6 @@
+# Вычислите средние значения и стандартные отклонения
+mean_X = np.mean(X, axis=0)
+std_X = np.std(X, axis=0)
+
+# Нормализация данных
+X_normalized = (X - mean_X) / std_X
