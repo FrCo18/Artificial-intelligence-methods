@@ -72,6 +72,7 @@ best_route, best_fitness = genetic_algorithm(
     elitism_rate=elitism_rate
 )
 
+
 # Печать итогового результата
 print()
 print("Task 5:")
